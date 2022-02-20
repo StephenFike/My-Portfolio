@@ -36,7 +36,6 @@
     color: var(--secondary-color);
     font-size: 35px;
     font-weight: 600;
-    border-bottom: #000 solid 2px;
 }
 
 .navbar .menu li {
@@ -55,14 +54,17 @@
 
 .home {
     display: flex;
-    height: 500px;
+    height: 400px;
     color: var(--secondary-color);
     font-family: 'Ubuntu', sans-serif;
     background-color: #cccccc;
 }
 
 .home .home-content {
-    font-size: 30px;
+    top: 0;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .home .max-width {
