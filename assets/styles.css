@@ -129,3 +129,27 @@ section {
     font-family: 'Ubuntu', sans-serif;
     margin: auto 30px;
 }
+
+.contact {
+    display: flex;
+}
+
+.contact .contact-title {
+    display: flex;
+    padding: 0 10px 0 80px;
+    border-right: 2px #000 solid;
+}
+
+.contact h2 {
+    display: inline-block;
+    justify-content: right;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    direction: rtl;
+}
+
+.contact .contact-content {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+}
