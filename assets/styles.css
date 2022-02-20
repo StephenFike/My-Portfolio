@@ -190,6 +190,7 @@ section {
     margin: auto 30px;
     display: flex;
     text-decoration: none;
+    color: #000;
 }
 
 .contact .contact-info a:visited {
