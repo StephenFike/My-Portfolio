@@ -101,7 +101,7 @@ section {
     display: flex;
 }
 
-.content img {
+.about .content img {
     display: flex;
     border-radius: 2%;
     width: auto;
@@ -111,28 +111,6 @@ section {
 
 .about {
     display: flex;
-}
-
-/* .about .about-me {
-    display: flex;
-    padding: 0 10px 0 80px;
-    border-right: 2px #000 solid;
-} */
-
-/* .about .about-me h2 {
-    display: inline-block;
-    justify-content: right;
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    direction: rtl;
-    height: 200px;
-    width: 200px;
-} */
-
-.about .about-me-content {
-    font-size: 1.0em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: auto 30px;
 }
 
 .project {
@@ -145,18 +123,17 @@ section {
     border-right: 2px #000 solid;
 }
 
-/* .project h2 {
-    display: inline-block;
-    justify-content: right;
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    direction: rtl;
-} */
+.run-buddy {
+    display: flex;
+}
 
-.project .project-content {
-    font-size: 1.0em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: auto 30px;
+.project .content .run-buddy a img {
+    height: auto;
+    width: 1000px;
+}
+
+.run-buddy p {
+    display: flex;
 }
 
 .contact {
@@ -167,18 +144,4 @@ section {
     display: flex;
     padding: 0 10px 0 80px;
     border-right: 2px #000 solid;
-}
-
-/* .contact h2 {
-    display: inline-block;
-    justify-content: right;
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    direction: rtl;
-} */
-
-.contact .contact-content {
-    font-size: 1.0em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: auto 30px;
 }
