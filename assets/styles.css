@@ -139,8 +139,7 @@ section {
 .project img {
     position: relative;
     opacity: 0.7;
-    /* filter: alpha(opacity=70) !important; */
-    /* box-shadow: 0 0 0px #000000 !important; */
+    flex: 0 1;
 }
 
 .bottom-left {
@@ -158,8 +157,6 @@ section {
 
 .project img:hover {
     opacity: 1;
-    /* filter: alpha(opacity=70) !important; */
-    /* box-shadow: 0 0 0px #000000 !important; */
 }
 
 .run-buddy p {
@@ -205,3 +202,42 @@ section {
     color: #fff;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
+      .hero {
+          width: 100%;
+      }
+      .project img {
+          flex: 0 70%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+        section {
+            padding: 30px 15px;
+          }
+    }
