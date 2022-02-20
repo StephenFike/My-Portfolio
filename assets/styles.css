@@ -60,40 +60,72 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
-}
-
-footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: var(--secondary-color)
+    border-bottom: #000 1px solid;
 }
 
 section {
     padding: 60px;
+}
+
+.hero {
+    background-image: url("../assets/Images/pexels-gdtography-911738.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 40vh;
+}
+
+.about {
+    display: flex;
+}
+
+.about .about-me {
+    display: flex;
+    padding: 0 10px 0 80px;
+    border-right: 2px #000 solid;
+}
+
+.about .about-me h2 {
+    display: inline-block;
+    justify-content: right;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    direction: rtl;
+}
+
+.about .about-me-content {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+}
+
+.project {
+    display: flex;
+}
+
+.project .project-title {
+    display: flex;
+    padding: 0 10px 0 80px;
+    border-right: 2px #000 solid;
+}
+
+.project h2 {
+    display: inline-block;
+    justify-content: right;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    direction: rtl;
+}
+
+.project .project-content {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
 }
