@@ -22,11 +22,6 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
     z-index: 9999;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -82,23 +77,57 @@ section {
     height: 40vh;
 }
 
-.about {
+.titles {
     display: flex;
+    height: 100px;
 }
 
-.about .about-me {
-    display: flex;
-    padding: 0 10px 0 80px;
-    border-right: 2px #000 solid;
-}
-
-.about .about-me h2 {
+.titles h2 {
     display: inline-block;
     justify-content: right;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     direction: rtl;
+    height: 100px;
+    width: 190px;
+    padding: 0 10px 0 80px;
+    border-right: 2px #000 solid;
 }
+
+.content {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+    display: flex;
+}
+
+.content img {
+    display: flex;
+    border-radius: 2%;
+    width: auto;
+    height: 150px;
+    border: 2px #000 solid;
+}
+
+.about {
+    display: flex;
+}
+
+/* .about .about-me {
+    display: flex;
+    padding: 0 10px 0 80px;
+    border-right: 2px #000 solid;
+} */
+
+/* .about .about-me h2 {
+    display: inline-block;
+    justify-content: right;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    direction: rtl;
+    height: 200px;
+    width: 200px;
+} */
 
 .about .about-me-content {
     font-size: 1.0em;
@@ -116,13 +145,13 @@ section {
     border-right: 2px #000 solid;
 }
 
-.project h2 {
+/* .project h2 {
     display: inline-block;
     justify-content: right;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     direction: rtl;
-}
+} */
 
 .project .project-content {
     font-size: 1.0em;
@@ -140,13 +169,13 @@ section {
     border-right: 2px #000 solid;
 }
 
-.contact h2 {
+/* .contact h2 {
     display: inline-block;
     justify-content: right;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     direction: rtl;
-}
+} */
 
 .contact .contact-content {
     font-size: 1.0em;
