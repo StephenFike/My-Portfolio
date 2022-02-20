@@ -132,6 +132,13 @@ section {
     width: 1000px;
 }
 
+.project .content. .run-buddy a:hover {
+    background-color: crimson;
+    opacity: 1;
+}
+
+
+
 .run-buddy p {
     display: flex;
 }
@@ -144,4 +151,34 @@ section {
     display: flex;
     padding: 0 10px 0 80px;
     border-right: 2px #000 solid;
+}
+
+.contact .contact-info {
+    display: flex;
+}
+
+.contact .contact-info p {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+    display: flex;
+}
+
+.contact .contact-info a {
+    font-size: 1.0em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+    display: flex;
+    text-decoration: none;
+}
+
+.contact .contact-info a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact .contact-info a:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
 }
