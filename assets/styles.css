@@ -146,10 +146,14 @@ section {
 .bottom-left {
     position: absolute;
     bottom: -220px;
-    left: 300px;
     font-size: 20px;
-    background-color: #000;
-    color: #fff;
+    background-color: gray;
+    color: #000;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    left: 280px;
 }
 
 .project img:hover {
