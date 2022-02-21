@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-padding-top: 70px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +57,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
 }
@@ -107,6 +111,7 @@ section {
     width: auto;
     height: 150px;
     border: 2px #000 solid;
+    margin-left: 20px;
 }
 
 .about {
@@ -125,16 +130,13 @@ section {
 
 .run-buddy {
     display: flex;
+    position: relative;
 }
 
 .project .content .run-buddy a img {
     height: auto;
-    width: 1000px;
+    width: 100%;
 }
-
-/* .project .content .run-buddy a {
-    background-color: aqua;
-} */
 
 .project img {
     position: relative;
@@ -144,15 +146,11 @@ section {
 
 .bottom-left {
     position: absolute;
-    bottom: -220px;
+    bottom: 10px;
+    left: 10px;
     font-size: 20px;
     background-color: gray;
     color: #000;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    left: 280px;
 }
 
 .project img:hover {
@@ -226,10 +224,6 @@ section {
         font-size: 20px;
       }
     
-      footer h2, footer div {
-        text-align: center;
-        width: 100%;
-      }
       .hero {
           width: 100%;
       }
